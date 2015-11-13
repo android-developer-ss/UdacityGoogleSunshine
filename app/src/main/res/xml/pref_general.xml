@@ -7,9 +7,9 @@
         android:defaultValue="true" />
 
     <EditTextPreference
-        android:key="@string/edit_txt_pref_key"
+        android:key="@string/pref_location_key"
         android:title="@string/edit_txt_pref_title"
-        android:defaultValue="@string/edit_txt_pref_default_val"
+        android:defaultValue="@string/pref_location_default"
         android:selectAllOnFocus="true"
         android:inputType="textCapWords"
         android:capitalize="words"

@@ -65,9 +65,14 @@
     <string name="pref_ringtone_silent">Silent</string>
 
     <string name="pref_title_vibrate">Vibrate</string>
-    <string name="edit_txt_pref_key">location</string>
+    <!-- Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <!-- Default postal code for location preference [CHAR LIMIT=NONE] -->
+    <string name="pref_location_default" translatable="false">94043</string>
+
     <string name="edit_txt_pref_title">Location</string>
-    <string name="edit_txt_pref_default_val">94043</string>
+
     <string name="pref_metric_key">pref_metrics</string>
     <string name="pref_metric_title">Metrics/Imperial</string>
 
